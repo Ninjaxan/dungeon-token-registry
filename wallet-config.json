@@ -1,0 +1,9 @@
+{
+  "$comment": "Remote operational config for DungeonWallet, fetched on launch (same buildless pattern as tokens.json). All sections are OPTIONAL and default to current/permissive behavior, so this empty seed changes nothing. endpoints: override RPC/REST per chainId when a provider goes down, e.g. \"dungeon-1\": { \"rpc\": [\"https://...\"], \"lcd\": [\"https://...\"] }. chains: per-chain kill-switch, e.g. \"juno-1\": { \"enabled\": false }. features: turn a tab/feature OFF without a build, e.g. { \"dex\": false }. forceUpdate: hard-block installs below minVersion, e.g. { \"minVersion\": \"1.8.0\", \"message\": \"...\", \"iosUrl\": \"...\", \"androidUrl\": \"...\" }.",
+  "version": 1,
+  "updatedAt": "2026-06-24",
+  "endpoints": {},
+  "chains": {},
+  "features": {},
+  "forceUpdate": null
+}
