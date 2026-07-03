@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "registryVersion": "dungeon-wallet-ibc-routes-2026-06-30",
-  "updatedAt": "2026-07-01T00:30:29.564Z",
-  "expiresAt": "2026-09-29T00:30:29.565Z",
+  "registryVersion": "dungeon-wallet-ibc-routes-2026-07-03",
+  "updatedAt": "2026-07-03T12:19:05.317Z",
+  "expiresAt": "2026-10-01T12:19:05.317Z",
   "routes": [
     {
       "source_chain_id": "dungeon-1",
@@ -32,7 +32,7 @@
       "source_chain_id": "dungeon-1",
       "dest_chain_id": "atomone-1",
       "source_channel_id": "channel-5310",
-      "dest_channel_id": "channel-1",
+      "dest_channel_id": "channel-9",
       "is_active": true,
       "is_preferred": true
     },
@@ -83,11 +83,19 @@
       "dest_channel_id": "channel-5307",
       "is_active": true,
       "is_preferred": true
+    },
+    {
+      "source_chain_id": "atomone-1",
+      "dest_chain_id": "dungeon-1",
+      "source_channel_id": "channel-9",
+      "dest_channel_id": "channel-5310",
+      "is_active": true,
+      "is_preferred": true
     }
   ],
   "signature": {
     "alg": "ed25519",
     "keyId": "dungeon-wallet-ibc-routes-2026-07-01",
-    "value": "saRK00CwiLOwBMKug/CHVdpmPTAcG+reM+husbd+EpwzGz4M3TeRmfW7appYdtcUnpWY6yh8rPHZFetwNaRQDQ=="
+    "value": "vFoqkIo+Wv4UCmWsl0EwaDRDjJvwXj4btbgbhnmwW4qJQgO6t6IMpvE8Wuq09ri5TdBxpA3ZNGXTWUN4skQoDQ=="
   }
 }
