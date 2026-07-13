@@ -10,10 +10,7 @@
       ]
     }
   },
-  "chains": {
-    "migaloo-1": { "enabled": false },
-    "stargaze-1": { "enabled": false }
-  },
+  "chains": {},
   "features": {},
   "services": {
     "price": [
