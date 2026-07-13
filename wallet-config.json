@@ -9,7 +9,8 @@
     "price": [
       "https://backend.dungeongames.io/cg",
       "https://api.coingecko.com"
-    ]
+    ],
+    "ibc": "https://backend.dungeongames.io"
   },
   "forceUpdate": null
 }
