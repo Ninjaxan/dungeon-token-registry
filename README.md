@@ -33,5 +33,23 @@ Each `ibcTokens[]` entry must match the `IBCToken` type in
 Optional: `displayName`, `baseDenom`, `baseChainId`, `path`, `sourceChannelId`,
 `counterpartyChainId`, `logoUrl`, `coinGeckoId`.
 
+## Bridge safety controls
+
+`wallet-capabilities.manifest.json` is the signed source of truth for whether
+Bitcoin, Ethereum, Base, and Solana deposits/withdrawals may move funds. Both
+Dungeon Wallet clients verify its Ed25519 signature and expiry. Missing,
+expired, malformed, or forged data disables bridge actions.
+
+From the `DungeonWallet` repo, sign and write a new 90-day manifest with:
+
+```text
+npm run sign:wallet-capabilities -- --bitcoin=live --ethereum=live --base=live --solana=live
+```
+
+Use `paused` for an immediate safety stop or `maintenance` for planned work,
+then commit and push this registry. The private signing seed stays only at
+`%USERPROFILE%\.dungeon\wallet-capabilities-ed25519.json` and must never be
+committed. Re-sign before the manifest expires even when no status changed.
+
 Malformed entries are dropped by the wallet's validator — a bad edit can't crash
 the app, it just won't show that token.

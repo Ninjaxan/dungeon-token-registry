@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "registryVersion": "dungeon-wallet-capabilities-2026-08-13",
+  "updatedAt": "2026-08-13T15:38:38.617Z",
+  "expiresAt": "2026-11-11T15:38:38.617Z",
+  "bridges": {
+    "bitcoin": {
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Native BTC deposit and wBTC withdrawal are available."
+    },
+    "ethereum": {
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Ethereum Hyperlane deposit and withdrawal are available."
+    },
+    "base": {
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Base Hyperlane deposit and withdrawal are available."
+    },
+    "solana": {
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Solana Hyperlane deposit and withdrawal are available."
+    }
+  },
+  "signature": {
+    "alg": "ed25519",
+    "keyId": "dungeon-wallet-capabilities-2026-08-13",
+    "value": "+UHAzjkxPiFG2wPUc98npFXSO53XFO2ZkXmIBK5KRt0eWOQbhbXUOUepGwLdUv5k/Om+ImowlJthXdpqBM/qAw=="
+  }
+}
