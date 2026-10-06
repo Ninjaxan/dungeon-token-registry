@@ -1,8 +1,8 @@
 {
   "version": 1,
   "registryVersion": "dungeon-wallet-ibc-routes-2026-07-03",
-  "updatedAt": "2026-07-03T12:19:05.317Z",
-  "expiresAt": "2026-10-01T12:19:05.317Z",
+  "updatedAt": "2026-10-06T11:09:03.963Z",
+  "expiresAt": "2027-01-04T11:09:03.964Z",
   "routes": [
     {
       "source_chain_id": "dungeon-1",
@@ -96,6 +96,6 @@
   "signature": {
     "alg": "ed25519",
     "keyId": "dungeon-wallet-ibc-routes-2026-07-01",
-    "value": "vFoqkIo+Wv4UCmWsl0EwaDRDjJvwXj4btbgbhnmwW4qJQgO6t6IMpvE8Wuq09ri5TdBxpA3ZNGXTWUN4skQoDQ=="
+    "value": "slBkrHYEd6d2oHv+V5WmSD4M4SUqQyRu8joWfLzPzQs8sPeyKUqvdnasDzAq8OVEl/Zj0NQXiOY+LtVLfB84AA=="
   }
 }
