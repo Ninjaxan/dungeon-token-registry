@@ -1,7 +1,7 @@
 {
   "$comment": "Remote operational config for DungeonWallet, fetched on launch (same buildless pattern as tokens.json). All sections are OPTIONAL and default to current/permissive behavior. endpoints: override RPC/REST per chainId when a provider goes down, e.g. \"dungeon-1\": { \"rpc\": [\"https://...\"], \"lcd\": [\"https://...\"] }. chains: per-chain kill-switch, e.g. \"juno-1\": { \"enabled\": false }. features: turn a tab/feature OFF without a build, e.g. { \"dex\": false }. forceUpdate: hard-block installs below minVersion. services: buildless price/staking/ibc provider swap (needs wallet >= 1.7.19). services.price is an ordered CoinGecko-compatible fallback chain; wallets append /api/v3/simple/price.",
-  "version": 3,
-  "updatedAt": "2026-08-14",
+  "version": 4,
+  "updatedAt": "2026-10-06",
   "endpoints": {
     "noble-1": {
       "rpc": [
@@ -13,6 +13,29 @@
         "https://rest.cosmos.directory/noble",
         "https://noble-api.polkachu.com",
         "https://rest.lavenderfive.com:443/noble"
+      ]
+    },
+    "passage-2": {
+      "rpc": [
+        "https://passage-rpc.stakeandrelax.net",
+        "https://rpc.cosmos.directory/passage"
+      ],
+      "lcd": [
+        "https://passage-api.stakeandrelax.net",
+        "https://rest.cosmos.directory/passage"
+      ]
+    },
+    "jackal-1": {
+      "rpc": [
+        "https://rpc.jackal.nodestake.org",
+        "https://rpc-jackal.nodeist.net",
+        "https://public.stakewolle.com/cosmos/jackal/rpc",
+        "https://rpc.cosmos.directory/jackal"
+      ],
+      "lcd": [
+        "https://api.jackal.nodestake.org",
+        "https://jackal.api.pocket.network",
+        "https://rest.cosmos.directory/jackal"
       ]
     }
   },
