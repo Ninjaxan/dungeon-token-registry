@@ -1,37 +1,37 @@
 {
   "version": 1,
   "registryVersion": "dungeon-wallet-capabilities-2026-08-13",
-  "updatedAt": "2026-10-07T11:25:49.685Z",
-  "expiresAt": "2027-01-05T11:25:49.686Z",
+  "updatedAt": "2026-10-29T23:48:31.549Z",
+  "expiresAt": "2026-10-30T23:48:31.549Z",
   "bridges": {
     "bitcoin": {
-      "state": "live",
-      "depositEnabled": true,
-      "withdrawEnabled": true,
-      "message": "Native BTC deposit and wBTC withdrawal are available."
+      "state": "paused",
+      "depositEnabled": false,
+      "withdrawEnabled": false,
+      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
     },
     "ethereum": {
-      "state": "live",
-      "depositEnabled": true,
-      "withdrawEnabled": true,
-      "message": "Ethereum Hyperlane deposit and withdrawal are available."
+      "state": "paused",
+      "depositEnabled": false,
+      "withdrawEnabled": false,
+      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
     },
     "base": {
-      "state": "live",
-      "depositEnabled": true,
-      "withdrawEnabled": true,
-      "message": "Base Hyperlane deposit and withdrawal are available."
+      "state": "paused",
+      "depositEnabled": false,
+      "withdrawEnabled": false,
+      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
     },
     "solana": {
-      "state": "live",
-      "depositEnabled": true,
-      "withdrawEnabled": true,
-      "message": "Solana Hyperlane deposit and withdrawal are available."
+      "state": "paused",
+      "depositEnabled": false,
+      "withdrawEnabled": false,
+      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "dungeon-wallet-capabilities-2026-08-13",
-    "value": "ja1m7tpmyS6zRl+miKvY1J+CPjt6wtR26n5r3sZnxZwGMp8js3Zzd87e87M3OaOO10hy2gBY5pxbr5UCXgsTDg=="
+    "value": "AFNNBUAeDJg9A+0d7z4k6+h6IBlEb6PyFZ5HX4ZfhvJUfKBa7sltDL8glfYpCw5l4ZbRCX9zPb7HPbGPl06WCg=="
   }
 }
