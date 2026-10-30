@@ -1,37 +1,37 @@
 {
   "version": 1,
   "registryVersion": "dungeon-wallet-capabilities-2026-08-13",
-  "updatedAt": "2026-10-29T23:48:31.549Z",
-  "expiresAt": "2026-10-30T23:48:31.549Z",
+  "updatedAt": "2026-10-30T14:01:14.725Z",
+  "expiresAt": "2027-01-28T14:01:14.725Z",
   "bridges": {
     "bitcoin": {
       "state": "paused",
       "depositEnabled": false,
       "withdrawEnabled": false,
-      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
+      "message": "Temporarily paused by Dungeon safety controls."
     },
     "ethereum": {
-      "state": "paused",
-      "depositEnabled": false,
-      "withdrawEnabled": false,
-      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Ethereum Hyperlane deposit and withdrawal are available."
     },
     "base": {
-      "state": "paused",
-      "depositEnabled": false,
-      "withdrawEnabled": false,
-      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Base Hyperlane deposit and withdrawal are available."
     },
     "solana": {
-      "state": "paused",
-      "depositEnabled": false,
-      "withdrawEnabled": false,
-      "message": "Bridge transfers are paused for security recovery. Do not send funds to this route."
+      "state": "live",
+      "depositEnabled": true,
+      "withdrawEnabled": true,
+      "message": "Solana Hyperlane deposit and withdrawal are available."
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "dungeon-wallet-capabilities-2026-08-13",
-    "value": "AFNNBUAeDJg9A+0d7z4k6+h6IBlEb6PyFZ5HX4ZfhvJUfKBa7sltDL8glfYpCw5l4ZbRCX9zPb7HPbGPl06WCg=="
+    "value": "CnKNAtv/hrkInfgwwmTilzYeknsWugA+Ppa7xCN/Jg0IymEyclTvtMecMR8Adu1j6NegpKSch1WDlrXbQHdgBw=="
   }
 }
