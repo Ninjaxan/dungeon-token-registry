@@ -1,8 +1,8 @@
 {
   "version": 1,
   "registryVersion": "dungeon-wallet-capabilities-2026-08-13",
-  "updatedAt": "2026-10-30T14:01:14.725Z",
-  "expiresAt": "2027-01-28T14:01:14.725Z",
+  "updatedAt": "2026-11-13T20:25:09.371Z",
+  "expiresAt": "2027-02-11T20:25:09.372Z",
   "bridges": {
     "bitcoin": {
       "state": "paused",
@@ -12,26 +12,26 @@
     },
     "ethereum": {
       "state": "live",
-      "depositEnabled": true,
+      "depositEnabled": false,
       "withdrawEnabled": true,
-      "message": "Ethereum Hyperlane deposit and withdrawal are available."
+      "message": "Withdrawals only. Deposits are closed while this bridge winds down."
     },
     "base": {
-      "state": "live",
-      "depositEnabled": true,
-      "withdrawEnabled": true,
-      "message": "Base Hyperlane deposit and withdrawal are available."
+      "state": "paused",
+      "depositEnabled": false,
+      "withdrawEnabled": false,
+      "message": "Temporarily paused by Dungeon safety controls."
     },
     "solana": {
       "state": "live",
-      "depositEnabled": true,
+      "depositEnabled": false,
       "withdrawEnabled": true,
-      "message": "Solana Hyperlane deposit and withdrawal are available."
+      "message": "Withdrawals only. Deposits are closed while this bridge winds down."
     }
   },
   "signature": {
     "alg": "ed25519",
     "keyId": "dungeon-wallet-capabilities-2026-08-13",
-    "value": "CnKNAtv/hrkInfgwwmTilzYeknsWugA+Ppa7xCN/Jg0IymEyclTvtMecMR8Adu1j6NegpKSch1WDlrXbQHdgBw=="
+    "value": "u2H4xGTqz6zI4LJPfYBfeyQUoLVJCPx5SWOUT3dBm4mL7+b9wKO8Ttetp53GrGUyGq1o81+0859M0Ie6PMDxCQ=="
   }
 }
